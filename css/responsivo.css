@@ -1,9 +1,5 @@
 @media screen and (max-width : 1500px) {
     
-    *{
-        overflow-x: hidden;
-    }
-
     body{
         overflow-x: hidden;
         width: auto;
@@ -14,7 +10,7 @@
     }
     
     .logo-cabecalho{
-        margin: 0 4%;
+        margin: 0 5%;
 
     }
     
@@ -48,7 +44,7 @@
     }
 
     .menu-mobile.abrir-menu{
-        width: 30%;
+        width: 50%;
     }
 
     .menu-mobile.abrir-menu ~ .overlay-menu{
@@ -165,96 +161,6 @@
 
     body{
         overflow-x: hidden;
-        width: auto;
-    }
-
-    .cabecalho .text-cabecalho {
-        display: none;
-    }
-    
-    .logo-cabecalho{
-        margin: 0 3%;
-
-    }
-    
-    a{
-        text-decoration: none;
-        font-family: 'Outfit', sans-serif;
-    }
-
-    .btn-abrir-menu{
-        display: block;
-    }
-    
-    .menu-mobile{
-        display: block;
-    }
-    
-    .overlay-menu{
-        display: block;
-    }
-
-    .menu-mobile{
-        background-color: #161616;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 99999;
-        width: 0%;
-        overflow: hidden;
-        transition: 0.2s ease-in-out;
-    }
-
-    .menu-mobile.abrir-menu{
-        width: 30%;
-    }
-
-    .menu-mobile.abrir-menu ~ .overlay-menu{
-        display: block;
-    }
-
-    .btn-abrir-menu i{
-        color: #8C52FF;
-        font-size: 35px;
-        padding: 0px 10px;
-        display: block;
-    }
-
-    .menu-mobile .btn-fechar i{
-        color: #8C52FF;
-        font-size: 25px;
-    }
-
-    .menu-mobile .btn-fechar{
-        padding: 20px 4%;
-    }
-
-    .menu-mobile ul{
-        text-align: right;
-    }
-
-    .menu-mobile ul a li{
-        color: white;
-        font-size: 14px;
-        font-weight: 300;
-        padding: 20px 8%;
-    }
-
-    .menu-mobile ul a li:hover{
-        background-color: #8C52FF;
-    }
-
-    .overlay-menu{
-        background-color: black;
-        opacity: 0.7;
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 88888;
-        display: none;
     }
 
     .about-me .img-about .foto-jp {
@@ -275,96 +181,6 @@
 
     body{
         overflow-x: hidden;
-        width: auto;
-    }
-
-    .cabecalho .text-cabecalho {
-        display: none;
-    }
-    
-    .logo-cabecalho{
-        margin: 0 4%;
-
-    }
-    
-    a{
-        text-decoration: none;
-        font-family: 'Outfit', sans-serif;
-    }
-
-    .btn-abrir-menu{
-        display: block;
-    }
-    
-    .menu-mobile{
-        display: block;
-    }
-    
-    .overlay-menu{
-        display: block;
-    }
-
-    .menu-mobile{
-        background-color: #161616;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 99999;
-        width: 0%;
-        overflow: hidden;
-        transition: 0.2s ease-in-out;
-    }
-
-    .menu-mobile.abrir-menu{
-        width: 30%;
-    }
-
-    .menu-mobile.abrir-menu ~ .overlay-menu{
-        display: block;
-    }
-
-    .btn-abrir-menu i{
-        color: #8C52FF;
-        font-size: 35px;
-        padding: 0px 10px;
-        display: block;
-    }
-
-    .menu-mobile .btn-fechar i{
-        color: #8C52FF;
-        font-size: 25px;
-    }
-
-    .menu-mobile .btn-fechar{
-        padding: 20px 5%;
-    }
-
-    .menu-mobile ul{
-        text-align: right;
-    }
-
-    .menu-mobile ul a li{
-        color: white;
-        font-size: 14px;
-        font-weight: 300;
-        padding: 20px 8%;
-    }
-
-    .menu-mobile ul a li:hover{
-        background-color: #8C52FF;
-    }
-
-    .overlay-menu{
-        background-color: black;
-        opacity: 0.7;
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 88888;
-        display: none;
     }
 
     .home {
