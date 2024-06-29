@@ -14,7 +14,7 @@
     }
     
     .logo-cabecalho{
-        margin: 0 5%;
+        margin: 0 4%;
 
     }
     
@@ -48,7 +48,7 @@
     }
 
     .menu-mobile.abrir-menu{
-        width: 40%;
+        width: 30%;
     }
 
     .menu-mobile.abrir-menu ~ .overlay-menu{
@@ -165,10 +165,6 @@
 
     body{
         overflow-x: hidden;
-    }
-
-    body{
-        overflow-x: hidden;
         width: auto;
     }
 
@@ -177,7 +173,7 @@
     }
     
     .logo-cabecalho{
-        margin: 0 5%;
+        margin: 0 3%;
 
     }
     
@@ -211,7 +207,7 @@
     }
 
     .menu-mobile.abrir-menu{
-        width: 40%;
+        width: 30%;
     }
 
     .menu-mobile.abrir-menu ~ .overlay-menu{
@@ -231,7 +227,7 @@
     }
 
     .menu-mobile .btn-fechar{
-        padding: 20px 5%;
+        padding: 20px 4%;
     }
 
     .menu-mobile ul{
@@ -279,10 +275,6 @@
 
     body{
         overflow-x: hidden;
-    }
-
-    body{
-        overflow-x: hidden;
         width: auto;
     }
 
@@ -291,7 +283,7 @@
     }
     
     .logo-cabecalho{
-        margin: 0 5%;
+        margin: 0 4%;
 
     }
     
@@ -325,7 +317,7 @@
     }
 
     .menu-mobile.abrir-menu{
-        width: 40%;
+        width: 30%;
     }
 
     .menu-mobile.abrir-menu ~ .overlay-menu{
