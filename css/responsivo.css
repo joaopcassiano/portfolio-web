@@ -158,6 +158,10 @@
 
 @media screen and (max-width : 1218px) {
 
+    body{
+        overflow-x: hidden;
+    }
+
     .about-me .img-about .foto-jp {
         width: 400px;
         height: 400px;
@@ -173,7 +177,6 @@
 }
 
 @media screen and (max-width : 1000px) {
-    
     .home {
         flex-direction: column;
         gap: 0px;
@@ -444,6 +447,10 @@
 
 @media screen and (max-width : 800px) {
 
+    body{
+        overflow-x: hidden;
+    }
+
     .home {
         flex-direction: column;
         height: 1200px;
@@ -547,4 +554,3 @@
         padding: 20px 30px;
     }
 }
-
