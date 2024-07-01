@@ -53,7 +53,7 @@
     .btn-abrir-menu i{
         color: #8C52FF;
         font-size: 35px;
-        padding: 0px 10px;
+        padding: 0px 20px;
         display: block;
     }
 
@@ -176,7 +176,117 @@
 
 }
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 800px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .home {
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .home .texts-home {
+        width: 100%;
+        padding: 0 100px;
+    }
+
+    .about-me {
+        flex-direction: column;
+        height: 1700px;
+        gap: 0;
+    }
+
+    .about-me .texts-about {
+        align-items: center;
+        width: 100%;
+    }
+
+    .my-skills .list {
+        width: 90%;
+    }
+
+    .my-skills .content {
+        font-size: 0.5em;
+    }
+
+    .my-skills .content .description {
+        width: 250px;
+    }
+
+    .my-skills .arrows {
+        width: 90vw;
+    }
+
+    .portfolio .p-portfolio {
+        font-size: 10px;
+    }
+
+    .portfolio .thumb {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .portfolio .thumb .thumb-item{
+        align-items: end;
+    }
+
+    .portfolio .setas-portfolio {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 65%;
+    }
+
+    .portfolio .setas-portfolio .next-portfolio{
+        width: 30px;
+        height: 30px;
+    }
+
+    .portfolio .setas-portfolio .back-portfolio{
+        width: 30px;
+        height: 30px;
+    }
+    .testimonials-tittle{
+        top: 100%;
+    }
+
+    .main-testimonials {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-tittle {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .contact-p {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .social-contact {
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width : 800px) {
     .home {
         flex-direction: column;
         gap: 0px;
@@ -441,116 +551,5 @@
         padding: 0 30px;
         font-size: 12px;
         text-align: justify;
-    }
-}
-
-
-@media screen and (max-width : 800px) {
-
-    body{
-        overflow-x: hidden;
-    }
-
-    .home {
-        flex-direction: column;
-        height: 1200px;
-    }
-
-    .home .texts-home {
-        width: 100%;
-        padding: 0 100px;
-    }
-
-    .about-me {
-        flex-direction: column;
-        height: 1700px;
-        gap: 0;
-    }
-
-    .about-me .texts-about {
-        align-items: center;
-        width: 100%;
-    }
-
-    .my-skills .list {
-        width: 90%;
-    }
-
-    .my-skills .content {
-        font-size: 0.5em;
-    }
-
-    .my-skills .content .description {
-        width: 250px;
-    }
-
-    .my-skills .arrows {
-        width: 90vw;
-    }
-
-    .portfolio .p-portfolio {
-        font-size: 10px;
-    }
-
-    .portfolio .thumb {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .portfolio .thumb .thumb-item{
-        align-items: end;
-    }
-
-    .portfolio .setas-portfolio {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 65%;
-    }
-
-    .portfolio .setas-portfolio .next-portfolio{
-        width: 30px;
-        height: 30px;
-    }
-
-    .portfolio .setas-portfolio .back-portfolio{
-        width: 30px;
-        height: 30px;
-    }
-    .testimonials-tittle{
-        top: 100%;
-    }
-
-    .main-testimonials {
-        margin: auto;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-row: auto auto;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .card {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .contact-tittle {
-        width: 100%;
-        padding: 30px;
-    }
-
-    .contact-p {
-        width: 100%;
-        padding: 0 30px;
-    }
-
-    .social-contact {
-        padding: 20px 30px;
     }
 }
